@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+span{
+    color: brown;
+}
+#main {
+    border: 1px solid red;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#entrar{
+    display: block;
+    margin: 20px;
+    font-size: 16px;
+    font-family: monospace;
+    text-decoration: none;
+    padding: 10px 5px;
+    background: white;
+    color: brown;
+    border-radius: 20px;
+    border: 1px solid brown;
+    transition: 0.3s;
+}
+#cadastrar{
+    display: block;
+    margin: 20px;
+    font-size: 16px;
+    font-family: monospace;
+    text-decoration: none;
+    padding: 10px 5px;
+    background:white;
+    color: brown;
+    border-radius: 20px;
+    border: 1px solid brown;
+    transition: 0.3s;
+}
+#entrar:hover {
+    color: white;
+    background: brown;
+}
+#cadastrar:hover {
+    color: white;
+    background: brown;
+}
